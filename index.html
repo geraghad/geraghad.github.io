@@ -3,9 +3,11 @@
 <head>
 <title>InjurySense | Muscle Injury Rehabilitation Device</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no" />
 <meta name="description" content="Muscle injury rehabilitation device. A wearable powered by AI">
 <meta name="keywords" content="injurysense, wearable, electromyography,muscle activity, muscle rehabilitation">
+<meta name="HandheldFriendly" content="true" />
+<meta name="MobileOptimized" content="320" />
 <link href="css/stylesheet1.css" rel="stylesheet" type="text/css" />
 <link href="css/stylesheet2.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,7 +18,12 @@ body, html {
   height: 100%;
   line-height: 1.8;
 }
-
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 iframe {
         max-width: 100% ;
         display:block;
@@ -24,14 +31,57 @@ iframe {
         margin: 0 auto;
         
     }
+    @media (max-width: 820px){
+
+.bgimg-1{
+  width: 100%;
+  background-size: 100%;
+  background-repeat:no-repeat;
+}
+}
+@media (max-width: 912px){
+
+.bgimg-1{
+  width: 100%;
+  background-size: 100%;
+  background-repeat:no-repeat;
+}
+}
+@media (max-width: 600px){
+
+  .bgimg-1{
+    width: 100%;
+    background-size: 100%;
+    background-repeat:no-repeat;
+  }
+}
+
+@media (max-width: 400px){
+  .bgimg-1{
+    width: 100%;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    
+  }
+}
+
+@media (max-width: 200px){
+  .bgimg-1{
+    width: auto;
+
+    background-repeat:no-repeat;
+    
+  }
+}
 
 /* Full height image header */
 .bgimg-1 {
   background-position: center;
-  background-size: cover;
+  /* background-size: cover; */
   background-image: url("injurysense_logo_22.png");
   min-height: 100%;
   max-width: 100%;
+  background-repeat:no-repeat;
 }
 
 .w3-bar .w3-button {
@@ -76,10 +126,11 @@ iframe {
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
     <title>InjurySense | Muscle Injury Rehabilitation Device</title>
   <div class="w3-display-left w3-text-white" style="padding:48px">
-    <span class="w3-jumbo w3-hide-small" ></span> <br>
-    <span class="w3-xxlarge w3-hide-large w3-hide-medium"></span><br><br>
-    <span class="w3-large">AI Powered Muscle Activity Wearable for Rehabilitation</span>
-    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a></p>
+   <span class="w3-jumbo w3-hide-small" ></span> <br> 
+    <!-- <span class="w3-xxlarge w3-hide-large w3-hide-small"></span><br><br> -->
+    <span class="w3-medium">AI Powered Muscle Activity Wearable for Rehabilitation</span>
+    
+    <!-- <p><a href="#about" class="w3-button w3-white w3-padding-small w3-medium w3-margin-top w3-opacity w3-hover-opacity-off" >Learn more and start today</a></p>  -->
   </div> 
   <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
     <a href="https://www.linkedin.com/company/injurysense/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
@@ -137,8 +188,8 @@ iframe {
         <div class="w3-container">
           
           <h3>Adam Geraghty</h3>
-          <img src="adampic.png" alt="" style="width: 60%;">
-          <p class="w3-opacity">CEO & Founder</p>
+          <img src="adampic.png" alt="" style="width: 60%;" class="center">
+          <p class="center">CEO & Founder </p>
           <!-- <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p> -->
           <!-- <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p> -->
         </div>
@@ -149,8 +200,8 @@ iframe {
         <!-- <img src="/w3images/team1.jpg" alt="Jane" style="width:100%"> -->
         <div class="w3-container">
           <h3>Jack Byrne</h3>
-          <img src="jackpic.png" alt="" style="width: 52%;">
-          <p class="w3-opacity">CTO & Co-Founder</p>
+          <img src="jackpic.png" alt="" style="width: 52%;" class="center">
+          <p class="center" >CTO & Co-Founder</p>
           <!-- <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p> -->
           <!-- <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p> -->
         </div>
@@ -161,8 +212,8 @@ iframe {
         <!-- <img src="/w3images/team3.jpg" alt="Mike" style="width:100%"> -->
         <div class="w3-container">
           <h3>Neil Fleming</h3>
-          <img src="neilpic.png" alt="" style="width: 50%;">
-          <p class="w3-opacity">Chief Scientific Officer</p>
+          <img src="neilpic.png" alt="" style="width: 50%;" class="center">
+          <p class="center">Chief Scientific Officer</p>
           <!-- <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p> -->
           <!-- <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p> -->
         </div>
