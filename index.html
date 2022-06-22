@@ -17,12 +17,21 @@ body, html {
   line-height: 1.8;
 }
 
+iframe {
+        max-width: 100% ;
+        display:block;
+        border-style:none;
+        margin: 0 auto;
+        
+    }
+
 /* Full height image header */
 .bgimg-1 {
   background-position: center;
   background-size: cover;
   background-image: url("injurysense_logo_22.png");
   min-height: 100%;
+  max-width: 100%;
 }
 
 .w3-bar .w3-button {
@@ -73,7 +82,7 @@ body, html {
     <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a></p>
   </div> 
   <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <a href="https://www.linkedin.com/company/injurysense/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
   </div>
 </header>
 
@@ -126,10 +135,12 @@ body, html {
       <div class="w3-card">
         <!-- <img src="/w3images/team2.jpg" alt="John" style="width:100%"> -->
         <div class="w3-container">
+          
           <h3>Adam Geraghty</h3>
+          <img src="adampic.png" alt="" style="width: 60%;">
           <p class="w3-opacity">CEO & Founder</p>
           <!-- <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p> -->
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+          <!-- <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p> -->
         </div>
       </div>
     </div>
@@ -138,9 +149,10 @@ body, html {
         <!-- <img src="/w3images/team1.jpg" alt="Jane" style="width:100%"> -->
         <div class="w3-container">
           <h3>Jack Byrne</h3>
+          <img src="jackpic.png" alt="" style="width: 52%;">
           <p class="w3-opacity">CTO & Co-Founder</p>
           <!-- <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p> -->
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+          <!-- <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p> -->
         </div>
       </div>
     </div>
@@ -149,9 +161,10 @@ body, html {
         <!-- <img src="/w3images/team3.jpg" alt="Mike" style="width:100%"> -->
         <div class="w3-container">
           <h3>Neil Fleming</h3>
+          <img src="neilpic.png" alt="" style="width: 50%;">
           <p class="w3-opacity">Chief Scientific Officer</p>
           <!-- <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p> -->
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+          <!-- <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p> -->
         </div>
       </div>
     </div>
@@ -193,7 +206,7 @@ body, html {
 <div class="w3-container" style="padding:128px 16px" id="work">
   <h3 class="w3-center">OUR PRODUCT</h3>
   <p class="w3-center w3-large">Our wearable in action</p>
-  <iframe style = "margin-left: 15%;" width="1000" height="500" src="https://www.youtube.com/embed/sNS1hE50UjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe  max-width="100%" width="1000" height="500;"  src="https://www.youtube.com/embed/sNS1hE50UjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <div class="w3-row-padding" style="margin-top:64px">
     <div class="w3-col l3 m6">
       <!-- <img src="/w3images/tech_mic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone"> -->
@@ -262,29 +275,29 @@ body, html {
   <p class="w3-large">Choose a pricing plan that fits your needs.</p>
   <div class="w3-row-padding" style="margin-top:64px">
     <div class="w3-third w3-section">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
+      <!-- <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Basic</li> -->
         <!-- <li class="w3-padding-16"><b></b> </li> -->
         <!-- <li class="w3-padding-16"><b>10</b> Emails</li>
         <li class="w3-padding-16"><b>10</b> Domains</li>
         <li class="w3-padding-16"><b>Endless</b> Support</li> -->
         <!-- <li class="w3-padding-16"> -->
-          <h2 class="w3-wide">€ 3000</h2>
+          <!-- <h2 class="w3-wide">€ 3000</h2>
           <span class="w3-opacity">per year</span>
         </li>
         <li class="w3-light-grey w3-padding-24">
           <button class="w3-button w3-black w3-padding-large">Sign Up</button>
         </li>
-      </ul>
+      </ul> -->
     </div>
     <div class="w3-third">
       <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-red w3-xlarge w3-padding-48">Pro</li>
-        <!-- <li class="w3-padding-16"><b>25GB</b> Storage</li>
-        <li class="w3-padding-16"><b>25</b> Emails</li>
-        <li class="w3-padding-16"><b>25</b> Domains</li>
-        <li class="w3-padding-16"><b>Endless</b> Support</li>
-        <li class="w3-padding-16"> -->
+        <li class="w3-blue w3-xlarge w3-padding-48">Pro</li>
+        <li class="w3-padding-16"><b>5</b> Devices</li>
+        <li class="w3-padding-16"><b>Unlimited</b> Storage</li>
+        <li class="w3-padding-16"><b>Unlimited</b> Consumables</li>
+        <li class="w3-padding-16"><b>Unlimited, Customise Software</b> Support</li>
+        <li class="w3-padding-16">
           <h2 class="w3-wide">€ 5000</h2>
           <span class="w3-opacity">per year</span>
         </li>
@@ -293,22 +306,22 @@ body, html {
         </li>
       </ul>
     </div>
-    <div class="w3-third w3-section">
+    <!-- <div class="w3-third w3-section">
       <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
+        <li class="w3-black w3-xlarge w3-padding-32">Premium</li> -->
         <!-- <li class="w3-padding-16"><b>50GB</b> Storage</li>
         <li class="w3-padding-16"><b>50</b> Emails</li>
         <li class="w3-padding-16"><b>50</b> Domains</li>
         <li class="w3-padding-16"><b>Endless</b> Support</li>
         <li class="w3-padding-16"> -->
-          <h2 class="w3-wide">€ 7000</h2>
+          <!-- <h2 class="w3-wide">€ 7000</h2>
           <span class="w3-opacity">per year</span>
         </li>
         <li class="w3-light-grey w3-padding-24">
           <button class="w3-button w3-black w3-padding-large">Sign Up</button>
         </li>
       </ul>
-    </div>
+    </div> -->
   </div>
 </div>
 
@@ -321,13 +334,13 @@ body, html {
     <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +353894902299</p>
     <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: injurysense@gmail.com</p>
     <br>
-    <form action="/action_page.php" target="_blank">
+    <form method="post" action="mailto:injurysense@gmail.com">
       <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
       <p>
-        <button class="w3-button w3-black" type="submit">
+        <button class="w3-button w3-black" type="submit" value="Send Email">
           <i class="fa fa-paper-plane"></i> SEND MESSAGE
         </button>
       </p>
@@ -341,12 +354,8 @@ body, html {
 <footer class="w3-center w3-black w3-padding-64">
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <div class="w3-xlarge w3-section">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <a href="https://www.linkedin.com/company/injurysense/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    
   </div>
 </footer>
  
